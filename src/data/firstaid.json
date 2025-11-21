@@ -1,0 +1,52 @@
+[
+    {
+        "id": "cpr",
+        "title": "CPR (Cardiopulmonary Resuscitation)",
+        "description": "Emergency procedure for someone who has stopped breathing or whose heart has stopped.",
+        "steps": [
+            "Check the scene for safety.",
+            "Check for responsiveness. Tap the shoulder and shout 'Are you okay?'",
+            "Call 911 or local emergency number.",
+            "Check for breathing. If not breathing, start CPR.",
+            "Push hard and fast in the center of the chest (100-120 compressions per minute).",
+            "Give rescue breaths if trained (2 breaths after 30 compressions)."
+        ]
+    },
+    {
+        "id": "burns",
+        "title": "Burns",
+        "description": "Immediate care for heat, chemical, or electrical burns.",
+        "steps": [
+            "Cool the burn with cool (not cold) running water for at least 10 minutes.",
+            "Remove tight items (rings, watches) from the burned area before swelling starts.",
+            "Cover the burn with a sterile, non-stick bandage.",
+            "Do not pop blisters.",
+            "Take pain reliever if necessary.",
+            "Seek medical attention for severe burns."
+        ]
+    },
+    {
+        "id": "bleeding",
+        "title": "Severe Bleeding",
+        "description": "Steps to control heavy bleeding.",
+        "steps": [
+            "Apply direct pressure on the wound with a clean cloth or bandage.",
+            "Maintain pressure until bleeding stops.",
+            "Do not remove the cloth if it soaks through; add more layers on top.",
+            "Elevate the wound above the heart if possible.",
+            "Wash hands after providing care."
+        ]
+    },
+    {
+        "id": "choking",
+        "title": "Choking",
+        "description": "Heimlich maneuver for a choking adult or child.",
+        "steps": [
+            "Stand behind the person and wrap your arms around their waist.",
+            "Make a fist with one hand.",
+            "Place the thumb side of your fist against the person's abdomen, just above the navel.",
+            "Grasp your fist with your other hand and press hard into the abdomen with a quick, upward thrust.",
+            "Repeat until the object is expelled."
+        ]
+    }
+]

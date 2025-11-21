@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "City General Hospital",
+        "location": "Downtown",
+        "waitTime": "45 mins",
+        "crowdLevel": "High",
+        "distance": "2.0 km",
+        "emergency": true
+    },
+    {
+        "id": 2,
+        "name": "Westside Medical Center",
+        "location": "Westside",
+        "waitTime": "15 mins",
+        "crowdLevel": "Low",
+        "distance": "5.2 km",
+        "emergency": true
+    },
+    {
+        "id": 3,
+        "name": "North Hills Clinic",
+        "location": "North Hills",
+        "waitTime": "30 mins",
+        "crowdLevel": "Medium",
+        "distance": "8.0 km",
+        "emergency": false
+    },
+    {
+        "id": 4,
+        "name": "St. Mary's Hospital",
+        "location": "Eastside",
+        "waitTime": "60 mins",
+        "crowdLevel": "High",
+        "distance": "3.5 km",
+        "emergency": true
+    }
+]

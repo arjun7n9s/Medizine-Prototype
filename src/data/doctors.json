@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Sarah Johnson",
+        "specialization": "Cardiologist",
+        "experience": "15 years",
+        "rating": 4.9,
+        "reviews": 342,
+        "location": "City Heart Center",
+        "distance": "2.5 km",
+        "fee": "₹1200",
+        "availability": "Available Today",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300&h=300",
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "about": "Dr. Johnson is a renowned cardiologist with over 15 years of experience in treating complex heart conditions."
+    },
+    {
+        "id": 2,
+        "name": "Dr. Michael Chen",
+        "specialization": "Dermatologist",
+        "experience": "8 years",
+        "rating": 4.7,
+        "reviews": 189,
+        "location": "Skin Care Clinic",
+        "distance": "4.0 km",
+        "fee": "₹800",
+        "availability": "Available Tomorrow",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300&h=300",
+        "languages": [
+            "English",
+            "Mandarin"
+        ],
+        "about": "Dr. Chen specializes in cosmetic and medical dermatology, focusing on acne and anti-aging treatments."
+    },
+    {
+        "id": 3,
+        "name": "Dr. Emily Davis",
+        "specialization": "Pediatrician",
+        "experience": "10 years",
+        "rating": 4.8,
+        "reviews": 256,
+        "location": "Happy Kids Hospital",
+        "distance": "1.2 km",
+        "fee": "₹600",
+        "availability": "Available Today",
+        "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300&h=300",
+        "languages": [
+            "English"
+        ],
+        "about": "Dr. Davis is a compassionate pediatrician dedicated to the well-being of children from infancy through adolescence."
+    },
+    {
+        "id": 4,
+        "name": "Dr. James Wilson",
+        "specialization": "Orthopedic Surgeon",
+        "experience": "20 years",
+        "rating": 4.6,
+        "reviews": 175,
+        "location": "Bone & Joint Institute",
+        "distance": "5.5 km",
+        "fee": "₹1500",
+        "availability": "Next Week",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=300&h=300",
+        "languages": [
+            "English",
+            "German"
+        ],
+        "about": "Dr. Wilson is an expert in sports medicine and joint replacement surgeries."
+    },
+    {
+        "id": 5,
+        "name": "Dr. Anita Patel",
+        "specialization": "General Physician",
+        "experience": "12 years",
+        "rating": 4.9,
+        "reviews": 420,
+        "location": "Community Health Center",
+        "distance": "0.8 km",
+        "fee": "₹500",
+        "availability": "Available Today",
+        "image": "https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?auto=format&fit=crop&q=80&w=300&h=300",
+        "languages": [
+            "English",
+            "Hindi",
+            "Gujarati"
+        ],
+        "about": "Dr. Patel provides comprehensive primary care services with a focus on preventive medicine."
+    },
+    {
+        "id": 6,
+        "name": "Dr. Tejesh Kunapareddy",
+        "specialization": "Neurologist",
+        "experience": "14 years",
+        "rating": 4.8,
+        "reviews": 215,
+        "location": "Brain & Spine Clinic",
+        "distance": "3.2 km",
+        "fee": "₹1400",
+        "availability": "Available Today",
+        "image": "https://avatar.iran.liara.run/public/boy?username=Tejesh",
+        "languages": [
+            "English",
+            "Telugu"
+        ],
+        "about": "Dr. Tejesh is a leading neurologist specializing in headache disorders and stroke management."
+    },
+    {
+        "id": 7,
+        "name": "Dr. Utkarsh Kumar",
+        "specialization": "Psychiatrist",
+        "experience": "9 years",
+        "rating": 4.7,
+        "reviews": 134,
+        "location": "Mind Wellness Center",
+        "distance": "1.5 km",
+        "fee": "₹1000",
+        "availability": "Available Tomorrow",
+        "image": "https://avatar.iran.liara.run/public/boy?username=Utkarsh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "about": "Dr. Utkarsh provides compassionate mental health care with a focus on anxiety and depression."
+    },
+    {
+        "id": 8,
+        "name": "Dr. PavanTeja",
+        "specialization": "Ophthalmologist",
+        "experience": "11 years",
+        "rating": 4.9,
+        "reviews": 289,
+        "location": "Vision Care Hospital",
+        "distance": "2.8 km",
+        "fee": "₹900",
+        "availability": "Available Today",
+        "image": "https://avatar.iran.liara.run/public/boy?username=PavanTeja",
+        "languages": [
+            "English",
+            "Telugu"
+        ],
+        "about": "Dr. PavanTeja is an expert in cataract surgery and laser vision correction."
+    },
+    {
+        "id": 9,
+        "name": "Dr. Poorna",
+        "specialization": "Gynecologist",
+        "experience": "13 years",
+        "rating": 4.8,
+        "reviews": 310,
+        "location": "Women's Health Clinic",
+        "distance": "3.5 km",
+        "fee": "₹1100",
+        "availability": "Next Week",
+        "image": "https://avatar.iran.liara.run/public/girl?username=Poorna",
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "about": "Dr. Poorna specializes in high-risk pregnancies and minimally invasive gynecologic surgeries."
+    },
+    {
+        "id": 10,
+        "name": "Dr. Mukund Gautam",
+        "specialization": "ENT Specialist",
+        "experience": "7 years",
+        "rating": 4.6,
+        "reviews": 156,
+        "location": "City ENT Hospital",
+        "distance": "4.2 km",
+        "fee": "₹1700",
+        "availability": "Available Today",
+        "image": "https://avatar.iran.liara.run/public/boy?username=Mukund",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "about": "Dr. Mukund is dedicated to treating ear, nose, and throat disorders in both children and adults."
+    },
+    {
+        "id": 11,
+        "name": "Dr. Sariva Srivastava",
+        "specialization": "Dentist",
+        "experience": "6 years",
+        "rating": 4.7,
+        "reviews": 198,
+        "location": "Bright Smile Dental",
+        "distance": "1.8 km",
+        "fee": "₹1600",
+        "availability": "Available Tomorrow",
+        "image": "https://avatar.iran.liara.run/public/girl?username=Sariva",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "about": "Dr. Sariva offers comprehensive dental care including cosmetic dentistry and root canal treatments."
+    }
+]

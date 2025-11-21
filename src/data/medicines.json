@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "name": "Paracetamol 500mg",
+        "category": "Pain Relief",
+        "price": "₹40",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Effective pain reliever and fever reducer."
+    },
+    {
+        "id": 2,
+        "name": "Ibuprofen 400mg",
+        "category": "Pain Relief",
+        "price": "₹55",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Anti-inflammatory drug for pain and swelling."
+    },
+    {
+        "id": 3,
+        "name": "Amoxicillin 500mg",
+        "category": "Antibiotics",
+        "price": "₹120",
+        "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&q=80&w=400",
+        "description": "Antibiotic used to treat bacterial infections."
+    },
+    {
+        "id": 4,
+        "name": "Cetirizine 10mg",
+        "category": "Allergy",
+        "price": "₹35",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Relieves allergy symptoms like runny nose and sneezing."
+    },
+    {
+        "id": 5,
+        "name": "Vitamin C 1000mg",
+        "category": "Supplements",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Boosts immune system and skin health."
+    },
+    {
+        "id": 6,
+        "name": "Aspirin 81mg",
+        "category": "Heart Health",
+        "price": "₹30",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Low dose aspirin for heart health."
+    },
+    {
+        "id": 7,
+        "name": "Omeprazole 20mg",
+        "category": "Digestive Health",
+        "price": "₹80",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400",
+        "description": "Treats heartburn and acid reflux."
+    },
+    {
+        "id": 8,
+        "name": "Metformin 500mg",
+        "category": "Diabetes",
+        "price": "₹45",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Controls blood sugar levels in type 2 diabetes."
+    },
+    {
+        "id": 9,
+        "name": "Atorvastatin 10mg",
+        "category": "Heart Health",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Lowers cholesterol and triglyceride levels."
+    },
+    {
+        "id": 10,
+        "name": "Loratadine 10mg",
+        "category": "Allergy",
+        "price": "₹40",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Non-drowsy allergy relief."
+    },
+    {
+        "id": 11,
+        "name": "Multivitamin Complex",
+        "category": "Supplements",
+        "price": "₹450",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Daily essential vitamins and minerals."
+    },
+    {
+        "id": 12,
+        "name": "Fish Oil 1000mg",
+        "category": "Supplements",
+        "price": "₹600",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Rich in Omega-3 fatty acids for heart health."
+    },
+    {
+        "id": 13,
+        "name": "Calcium + Vitamin D3",
+        "category": "Supplements",
+        "price": "₹350",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports bone health and density."
+    },
+    {
+        "id": 14,
+        "name": "Cough Syrup 100ml",
+        "category": "Cold & Flu",
+        "price": "₹120",
+        "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400",
+        "description": "Relieves dry and chesty coughs."
+    },
+    {
+        "id": 15,
+        "name": "Nasal Spray",
+        "category": "Cold & Flu",
+        "price": "₹90",
+        "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400",
+        "description": "Clears blocked nose and congestion."
+    },
+    {
+        "id": 16,
+        "name": "Bandages (Pack of 20)",
+        "category": "First Aid",
+        "price": "₹50",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Adhesive bandages for minor cuts."
+    },
+    {
+        "id": 17,
+        "name": "Antiseptic Cream",
+        "category": "First Aid",
+        "price": "₹75",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Prevents infection in minor wounds."
+    },
+    {
+        "id": 18,
+        "name": "Thermometer Digital",
+        "category": "Medical Devices",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+        "description": "Accurate body temperature measurement."
+    },
+    {
+        "id": 19,
+        "name": "Pulse Oximeter",
+        "category": "Medical Devices",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+        "description": "Measures oxygen saturation and pulse rate."
+    },
+    {
+        "id": 20,
+        "name": "Blood Pressure Monitor",
+        "category": "Medical Devices",
+        "price": "₹1500",
+        "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+        "description": "Automatic upper arm blood pressure monitor."
+    },
+    {
+        "id": 21,
+        "name": "Hand Sanitizer 500ml",
+        "category": "Personal Care",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "Kills 99.9% of germs without water."
+    },
+    {
+        "id": 22,
+        "name": "Face Masks (Pack of 50)",
+        "category": "Personal Care",
+        "price": "₹300",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "3-ply disposable face masks."
+    },
+    {
+        "id": 23,
+        "name": "Sunscreen SPF 50",
+        "category": "Personal Care",
+        "price": "₹450",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "High protection against UV rays."
+    },
+    {
+        "id": 24,
+        "name": "Moisturizing Lotion",
+        "category": "Personal Care",
+        "price": "₹350",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "Hydrates dry and sensitive skin."
+    },
+    {
+        "id": 25,
+        "name": "Protein Powder 1kg",
+        "category": "Fitness",
+        "price": "₹2500",
+        "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&q=80&w=400",
+        "description": "Whey protein for muscle recovery."
+    },
+    {
+        "id": 26,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&q=80&w=400",
+        "description": "Non-slip mat for yoga and exercise."
+    },
+    {
+        "id": 27,
+        "name": "Dumbbells (Pair 5kg)",
+        "category": "Fitness",
+        "price": "₹1200",
+        "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&q=80&w=400",
+        "description": "Vinyl coated dumbbells for home workout."
+    },
+    {
+        "id": 28,
+        "name": "Baby Diapers (Pack of 40)",
+        "category": "Baby Care",
+        "price": "₹600",
+        "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=400",
+        "description": "Soft and absorbent diapers for babies."
+    },
+    {
+        "id": 29,
+        "name": "Baby Wipes",
+        "category": "Baby Care",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=400",
+        "description": "Gentle wipes for sensitive skin."
+    },
+    {
+        "id": 30,
+        "name": "Baby Formula 400g",
+        "category": "Baby Care",
+        "price": "₹750",
+        "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=400",
+        "description": "Nutritious formula for infants."
+    },
+    {
+        "id": 31,
+        "name": "Pregnancy Test Kit",
+        "category": "Women's Health",
+        "price": "₹100",
+        "image": "https://images.unsplash.com/photo-1606206591513-560d58533918?auto=format&fit=crop&q=80&w=400",
+        "description": "Fast and accurate home pregnancy test."
+    },
+    {
+        "id": 32,
+        "name": "Sanitary Pads (Pack of 10)",
+        "category": "Women's Health",
+        "price": "₹80",
+        "image": "https://images.unsplash.com/photo-1606206591513-560d58533918?auto=format&fit=crop&q=80&w=400",
+        "description": "Cotton soft pads for regular flow."
+    },
+    {
+        "id": 33,
+        "name": "Iron Supplements",
+        "category": "Women's Health",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1606206591513-560d58533918?auto=format&fit=crop&q=80&w=400",
+        "description": "Prevents iron deficiency anemia."
+    },
+    {
+        "id": 34,
+        "name": "Men's Multivitamin",
+        "category": "Men's Health",
+        "price": "₹400",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Tailored vitamins for men's health."
+    },
+    {
+        "id": 35,
+        "name": "Shaving Cream",
+        "category": "Men's Health",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Smooth shave and skin protection."
+    },
+    {
+        "id": 36,
+        "name": "Hair Regrowth Serum",
+        "category": "Men's Health",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Promotes hair growth and thickness."
+    },
+    {
+        "id": 37,
+        "name": "Contact Lens Solution",
+        "category": "Eye Care",
+        "price": "₹300",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Cleans and disinfects contact lenses."
+    },
+    {
+        "id": 38,
+        "name": "Eye Drops",
+        "category": "Eye Care",
+        "price": "₹120",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Relieves dry and irritated eyes."
+    },
+    {
+        "id": 39,
+        "name": "Reading Glasses (+1.5)",
+        "category": "Eye Care",
+        "price": "₹450",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Stylish reading glasses."
+    },
+    {
+        "id": 40,
+        "name": "Ear Plugs",
+        "category": "Ear Care",
+        "price": "₹50",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Noise reduction ear plugs."
+    },
+    {
+        "id": 41,
+        "name": "Ear Drops",
+        "category": "Ear Care",
+        "price": "₹100",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Softens ear wax."
+    },
+    {
+        "id": 42,
+        "name": "Toothpaste Sensitive",
+        "category": "Oral Care",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "For sensitive teeth and gums."
+    },
+    {
+        "id": 43,
+        "name": "Mouthwash 500ml",
+        "category": "Oral Care",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "Fresh breath and cavity protection."
+    },
+    {
+        "id": 44,
+        "name": "Electric Toothbrush",
+        "category": "Oral Care",
+        "price": "₹1200",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "Rechargeable electric toothbrush."
+    },
+    {
+        "id": 45,
+        "name": "Glucosamine Sulfate",
+        "category": "Joint Health",
+        "price": "₹550",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports joint mobility and flexibility."
+    },
+    {
+        "id": 46,
+        "name": "Pain Relief Gel",
+        "category": "Pain Relief",
+        "price": "₹180",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Topical gel for muscle pain."
+    },
+    {
+        "id": 47,
+        "name": "Heat Patch",
+        "category": "Pain Relief",
+        "price": "₹60",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Long-lasting heat therapy for back pain."
+    },
+    {
+        "id": 48,
+        "name": "Melatonin 3mg",
+        "category": "Sleep Aid",
+        "price": "₹300",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Helps regulate sleep cycle."
+    },
+    {
+        "id": 49,
+        "name": "Herbal Sleep Tea",
+        "category": "Sleep Aid",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Relaxing blend for better sleep."
+    },
+    {
+        "id": 50,
+        "name": "Anti-Fungal Cream",
+        "category": "Skin Care",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "Treats fungal skin infections."
+    },
+    {
+        "id": 51,
+        "name": "Acne Face Wash",
+        "category": "Skin Care",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "Clears acne and prevents breakouts."
+    },
+    {
+        "id": 52,
+        "name": "Aloe Vera Gel",
+        "category": "Skin Care",
+        "price": "₹180",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "Soothes sunburn and irritated skin."
+    },
+    {
+        "id": 53,
+        "name": "Probiotics",
+        "category": "Digestive Health",
+        "price": "₹600",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400",
+        "description": "Promotes healthy gut bacteria."
+    },
+    {
+        "id": 54,
+        "name": "Laxative Tablets",
+        "category": "Digestive Health",
+        "price": "₹50",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400",
+        "description": "Relieves occasional constipation."
+    },
+    {
+        "id": 55,
+        "name": "Antacid Liquid",
+        "category": "Digestive Health",
+        "price": "₹120",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400",
+        "description": "Fast relief from acidity."
+    },
+    {
+        "id": 56,
+        "name": "Glucose Monitor Kit",
+        "category": "Diabetes",
+        "price": "₹1200",
+        "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+        "description": "Monitor blood glucose levels at home."
+    },
+    {
+        "id": 57,
+        "name": "Test Strips (50 count)",
+        "category": "Diabetes",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+        "description": "Strips for glucose monitor."
+    },
+    {
+        "id": 58,
+        "name": "Diabetic Socks",
+        "category": "Diabetes",
+        "price": "₹300",
+        "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+        "description": "Improves circulation and comfort."
+    },
+    {
+        "id": 59,
+        "name": "Nebulizer Machine",
+        "category": "Respiratory",
+        "price": "₹1800",
+        "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400",
+        "description": "Effective medication delivery for asthma."
+    },
+    {
+        "id": 60,
+        "name": "Inhaler Spacer",
+        "category": "Respiratory",
+        "price": "₹350",
+        "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400",
+        "description": "Improves inhaler medication delivery."
+    },
+    {
+        "id": 61,
+        "name": "Vapor Rub",
+        "category": "Respiratory",
+        "price": "₹100",
+        "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=400",
+        "description": "Relieves cough and cold symptoms."
+    },
+    {
+        "id": 62,
+        "name": "Compression Stockings",
+        "category": "Medical Supplies",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Improves blood flow in legs."
+    },
+    {
+        "id": 63,
+        "name": "Walking Cane",
+        "category": "Medical Supplies",
+        "price": "₹600",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Adjustable aluminum cane."
+    },
+    {
+        "id": 64,
+        "name": "Wheelchair",
+        "category": "Medical Supplies",
+        "price": "₹5000",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Foldable manual wheelchair."
+    },
+    {
+        "id": 65,
+        "name": "Biotin 10000mcg",
+        "category": "Supplements",
+        "price": "₹400",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports hair, skin, and nail health."
+    },
+    {
+        "id": 66,
+        "name": "Magnesium Citrate",
+        "category": "Supplements",
+        "price": "₹450",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports muscle and nerve function."
+    },
+    {
+        "id": 67,
+        "name": "Zinc 50mg",
+        "category": "Supplements",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Boosts immune system."
+    },
+    {
+        "id": 68,
+        "name": "CoQ10 100mg",
+        "category": "Heart Health",
+        "price": "₹900",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports heart energy production."
+    },
+    {
+        "id": 69,
+        "name": "Garlic Extract",
+        "category": "Heart Health",
+        "price": "₹350",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports cardiovascular health."
+    },
+    {
+        "id": 70,
+        "name": "Potassium",
+        "category": "Heart Health",
+        "price": "₹280",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Maintains healthy blood pressure."
+    },
+    {
+        "id": 71,
+        "name": "Electrolyte Powder",
+        "category": "Fitness",
+        "price": "₹500",
+        "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&q=80&w=400",
+        "description": "Hydration and recovery drink mix."
+    },
+    {
+        "id": 72,
+        "name": "Creatine Monohydrate",
+        "category": "Fitness",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&q=80&w=400",
+        "description": "Increases muscle strength and power."
+    },
+    {
+        "id": 73,
+        "name": "BCAA Powder",
+        "category": "Fitness",
+        "price": "₹900",
+        "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports muscle recovery."
+    },
+    {
+        "id": 74,
+        "name": "Baby Oil",
+        "category": "Baby Care",
+        "price": "₹180",
+        "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=400",
+        "description": "Moisturizes delicate baby skin."
+    },
+    {
+        "id": 75,
+        "name": "Baby Shampoo",
+        "category": "Baby Care",
+        "price": "₹220",
+        "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=400",
+        "description": "Tear-free formula for babies."
+    },
+    {
+        "id": 76,
+        "name": "Diaper Rash Cream",
+        "category": "Baby Care",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=400",
+        "description": "Soothes and heals diaper rash."
+    },
+    {
+        "id": 77,
+        "name": "Folic Acid 400mcg",
+        "category": "Women's Health",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1606206591513-560d58533918?auto=format&fit=crop&q=80&w=400",
+        "description": "Essential for prenatal health."
+    },
+    {
+        "id": 78,
+        "name": "Cranberry Extract",
+        "category": "Women's Health",
+        "price": "₹450",
+        "image": "https://images.unsplash.com/photo-1606206591513-560d58533918?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports urinary tract health."
+    },
+    {
+        "id": 79,
+        "name": "Menopause Support",
+        "category": "Women's Health",
+        "price": "₹600",
+        "image": "https://images.unsplash.com/photo-1606206591513-560d58533918?auto=format&fit=crop&q=80&w=400",
+        "description": "Relieves menopause symptoms."
+    },
+    {
+        "id": 80,
+        "name": "Saw Palmetto",
+        "category": "Men's Health",
+        "price": "₹500",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports prostate health."
+    },
+    {
+        "id": 81,
+        "name": "Beard Oil",
+        "category": "Men's Health",
+        "price": "₹350",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Conditions and softens beard."
+    },
+    {
+        "id": 82,
+        "name": "Face Wash for Men",
+        "category": "Men's Health",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=400",
+        "description": "Deep cleansing for men's skin."
+    },
+    {
+        "id": 83,
+        "name": "Computer Glasses",
+        "category": "Eye Care",
+        "price": "₹800",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Blocks blue light from screens."
+    },
+    {
+        "id": 84,
+        "name": "Lens Cleaning Wipes",
+        "category": "Eye Care",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Pre-moistened wipes for lenses."
+    },
+    {
+        "id": 85,
+        "name": "Eye Vitamin Complex",
+        "category": "Eye Care",
+        "price": "₹550",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Nutrients for healthy vision."
+    },
+    {
+        "id": 86,
+        "name": "Ear Wax Removal Kit",
+        "category": "Ear Care",
+        "price": "₹400",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Safe ear wax removal."
+    },
+    {
+        "id": 87,
+        "name": "Swimmer's Ear Drops",
+        "category": "Ear Care",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1583947581924-860b81d41d7a?auto=format&fit=crop&q=80&w=400",
+        "description": "Dries water in ears."
+    },
+    {
+        "id": 88,
+        "name": "Dental Floss",
+        "category": "Oral Care",
+        "price": "₹100",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "Removes plaque between teeth."
+    },
+    {
+        "id": 89,
+        "name": "Denture Cleaner",
+        "category": "Oral Care",
+        "price": "₹180",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "Cleans and freshens dentures."
+    },
+    {
+        "id": 90,
+        "name": "Gum Health Rinse",
+        "category": "Oral Care",
+        "price": "₹250",
+        "image": "https://images.unsplash.com/photo-1584483766114-2cea6facb57c?auto=format&fit=crop&q=80&w=400",
+        "description": "Fights gingivitis and bleeding gums."
+    },
+    {
+        "id": 91,
+        "name": "Turmeric Curcumin",
+        "category": "Joint Health",
+        "price": "₹500",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Natural anti-inflammatory."
+    },
+    {
+        "id": 92,
+        "name": "Collagen Peptides",
+        "category": "Joint Health",
+        "price": "₹900",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports joint and skin health."
+    },
+    {
+        "id": 93,
+        "name": "Hot Water Bottle",
+        "category": "Pain Relief",
+        "price": "₹300",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Classic relief for aches and pains."
+    },
+    {
+        "id": 94,
+        "name": "Ice Pack",
+        "category": "Pain Relief",
+        "price": "₹200",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+        "description": "Reusable cold pack for swelling."
+    },
+    {
+        "id": 95,
+        "name": "Sleep Mask",
+        "category": "Sleep Aid",
+        "price": "₹150",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Blocks light for better sleep."
+    },
+    {
+        "id": 96,
+        "name": "White Noise Machine",
+        "category": "Sleep Aid",
+        "price": "₹1200",
+        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400",
+        "description": "Soothing sounds for sleep."
+    },
+    {
+        "id": 97,
+        "name": "Charcoal Face Mask",
+        "category": "Skin Care",
+        "price": "₹300",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "Detoxifies and cleans pores."
+    },
+    {
+        "id": 98,
+        "name": "Lip Balm",
+        "category": "Skin Care",
+        "price": "₹80",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=400",
+        "description": "Moisturizes dry lips."
+    },
+    {
+        "id": 99,
+        "name": "Digestive Enzymes",
+        "category": "Digestive Health",
+        "price": "₹500",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400",
+        "description": "Aids digestion of food."
+    },
+    {
+        "id": 100,
+        "name": "Fiber Supplement",
+        "category": "Digestive Health",
+        "price": "₹400",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400",
+        "description": "Supports regularity."
+    }
+]

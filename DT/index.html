@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Travel Planner - Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-animation">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+    </div>
+
+    <div class="presentation-container">
+
+        <!-- Navigation Controls -->
+        <div class="controls">
+            <button id="prevBtn" class="nav-btn" aria-label="Previous Slide">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18l-6-6 6-6" />
+                </svg>
+            </button>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <button id="nextBtn" class="nav-btn" aria-label="Next Slide">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Slide 1: Title -->
+        <div class="slide active" id="slide-1">
+            <div class="content-center glass-panel hero-panel">
+                <h1 class="main-title">Smart Multimodal <br><span class="gradient-text">Travel Planner</span></h1>
+                <p class="subtitle">Optimizing Journeys with Design Thinking & HPI Framework</p>
+                <div class="tag-container">
+                    <span class="tag">Assignment Overview</span>
+                    <span class="tag">HPI Framework</span>
+                    <span class="tag">Design Thinking</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Assignment Overview -->
+        <div class="slide" id="slide-2">
+            <div class="slide-header">
+                <h2>Assignment Overview</h2>
+            </div>
+            <div class="glass-panel content-panel">
+                <p class="intro-text">
+                    India’s vast geography and uneven transport connectivity make intercity travel complex.
+                    Travelers often navigate a scattered mix of flights, trains, buses, and last-mile options —
+                    manually piecing together routes, comparing fares, and estimating transfer feasibility.
+                </p>
+                <div class="grid-2-col mt-2">
+                    <div class="list-box">
+                        <h3>What this covers?</h3>
+                        <ul>
+                            <li>Understanding traveler needs & pain points</li>
+                            <li>Defining the multimodal challenge</li>
+                            <li>Ideating algorithmic & experience solutions</li>
+                            <li>Prototyping architecture & UI flow</li>
+                        </ul>
+                    </div>
+                    <div class="list-box">
+                        <h3>Frameworks Applied</h3>
+                        <ul>
+                            <li><strong>HPI Framework:</strong> Human, Problem, Intervention</li>
+                            <li><strong>Design Thinking:</strong> Empathize → Define → Ideate → Prototype → Test</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: The Urban Mobility Challenge -->
+        <div class="slide" id="slide-3">
+            <div class="slide-header">
+                <h2>The Urban Mobility Challenge</h2>
+            </div>
+            <div class="grid-3-col">
+                <div class="card glass-card blue-tint">
+                    <h3>Limited Connectivity</h3>
+                    <p>Many Indian cities lack direct flight routes, forcing travelers to piece together complex
+                        journeys manually.</p>
+                </div>
+                <div class="card glass-card purple-tint">
+                    <h3>Cost vs Time Dilemma</h3>
+                    <p>Users struggle to balance speed with affordability across multiple transport modes (e.g., Flight
+                        vs Train).</p>
+                </div>
+                <div class="card glass-card pink-tint">
+                    <h3>Fragmented Information</h3>
+                    <p>No unified system for flights, trains, buses, and taxis creates planning chaos and information
+                        asymmetry.</p>
+                </div>
+            </div>
+            <div class="goal-box glass-panel mt-2">
+                <strong>Goal:</strong> Design an intelligent solution using the HPI framework integrated with Design
+                Thinking to optimize multimodal journeys.
+            </div>
+        </div>
+
+        <!-- Slide 4: Understanding HPI Framework -->
+        <div class="slide" id="slide-4">
+            <div class="slide-header">
+                <h2>Understanding the HPI Framework</h2>
+            </div>
+            <div class="grid-3-col hpi-grid">
+                <div class="hpi-col human-col">
+                    <div class="hpi-header">H – Human</div>
+                    <div class="hpi-content">
+                        <p>Travelers, stakeholders, service providers</p>
+                        <ul>
+                            <li>User needs & behaviors</li>
+                            <li>Pain points & constraints</li>
+                            <li>Journey expectations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hpi-col problem-col">
+                    <div class="hpi-header">P – Problem</div>
+                    <div class="hpi-content">
+                        <p>Core challenges to solve</p>
+                        <ul>
+                            <li>Limited connectivity</li>
+                            <li>High costs & long times</li>
+                            <li>Missed connections</li>
+                            <li>Information fragmentation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hpi-col intervention-col">
+                    <div class="hpi-header">I – Intervention</div>
+                    <div class="hpi-content">
+                        <p>Smart solution design</p>
+                        <ul>
+                            <li>Multimodal routing engine</li>
+                            <li>Cost-time optimization</li>
+                            <li>Real-time recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Mapping HPI to Design Thinking -->
+        <div class="slide" id="slide-5">
+            <div class="slide-header">
+                <h2>Mapping HPI to Design Thinking</h2>
+            </div>
+            <div class="timeline-container glass-panel">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Empathize → H (Human)</h3>
+                        <p>Understanding traveler needs, pain points, and journey behaviors through research.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Define → P (Problem)</h3>
+                        <p>Crafting precise challenge statements with constraints: connectivity, cost, time.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>Ideate → I (Intervention)</h3>
+                        <p>Generating solution concepts: algorithms, UI patterns, integration approaches.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Prototype → I (Intervention)</h3>
+                        <p>Building system architecture, routing engine, user interface, and interaction models.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3>Test → H + I (Validation)</h3>
+                        <p>Validating solutions with real users, measuring effectiveness, iterating based on feedback.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Empathize - Personas -->
+        <div class="slide" id="slide-6">
+            <div class="slide-header">
+                <h2>Empathize: Understanding Our Travelers</h2>
+            </div>
+            <div class="grid-3-col">
+                <div class="persona-card glass-card">
+                    <div class="persona-icon">�</div>
+                    <h3>Business Traveler</h3>
+                    <p class="priority"><strong>Priority:</strong> Speed, reliability, minimal transfers</p>
+                    <p class="pain"><em>Pain:</em> Missed connections cost deals.</p>
+                </div>
+                <div class="persona-card glass-card">
+                    <div class="persona-icon">🎒</div>
+                    <h3>Student</h3>
+                    <p class="priority"><strong>Priority:</strong> Lowest cost, flexible timing</p>
+                    <p class="pain"><em>Pain:</em> Budget constraints limit options.</p>
+                </div>
+                <div class="persona-card glass-card">
+                    <div class="persona-icon">👨‍👩‍👧</div>
+                    <h3>Family</h3>
+                    <p class="priority"><strong>Priority:</strong> Comfort, safety, predictability</p>
+                    <p class="pain"><em>Pain:</em> Coordinating multiple tickets is stressful.</p>
+                </div>
+            </div>
+            <div class="common-pains glass-panel mt-2">
+                <h3>Common Pain Points</h3>
+                <div class="pain-list">
+                    <span>➔ Unpredictable delays</span>
+                    <span>➔ Lack of pricing transparency</span>
+                    <span>➔ Uncoordinated schedules</span>
+                    <span>➔ Difficulty comparing routes</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Define -->
+        <div class="slide" id="slide-7">
+            <div class="slide-header">
+                <h2>Define: The Core Challenge</h2>
+            </div>
+            <div class="problem-statement glass-panel">
+                <h3>Problem Statement</h3>
+                <p>How might we create a <strong>unified multimodal platform</strong> that empowers travelers to
+                    seamlessly plan, compare, and book journeys across flights, trains, and buses while optimizing for
+                    their personal <strong>time vs. cost</strong> preferences?</p>
+            </div>
+            <div class="constraints-grid mt-2">
+                <div class="constraint-box">
+                    <h4>Connectivity</h4>
+                    <p>Must bridge gaps between major hubs and tier-2/3 cities.</p>
+                </div>
+                <div class="constraint-box">
+                    <h4>Reliability</h4>
+                    <p>Must account for transfer buffers and delays.</p>
+                </div>
+                <div class="constraint-box">
+                    <h4>Usability</h4>
+                    <p>Must simplify complex data into clear choices.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Ideate -->
+        <div class="slide" id="slide-8">
+            <div class="slide-header">
+                <h2>Ideate: Solutions</h2>
+            </div>
+            <div class="grid-2-col">
+                <div class="ideation-col">
+                    <h3>Algorithmic Solutions</h3>
+                    <div class="idea-card glass-card">
+                        <h4>Graph Routing (A*)</h4>
+                        <p>Treats cities as nodes and transport links as edges. Weights edges by cost AND time.</p>
+                    </div>
+                    <div class="idea-card glass-card">
+                        <h4>Transfer Penalty</h4>
+                        <p>Adds a "cost" to transfers to prefer direct routes unless savings are significant.</p>
+                    </div>
+                </div>
+                <div class="ideation-col">
+                    <h3>Experience Solutions</h3>
+                    <div class="idea-card glass-card">
+                        <h4>Preference Slider</h4>
+                        <p>UI control to weight "Time" vs "Money" dynamically.</p>
+                    </div>
+                    <div class="idea-card glass-card">
+                        <h4>Unified Ticket View</h4>
+                        <p>Visualizing the whole journey as a single timeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Prototype -->
+        <div class="slide" id="slide-9">
+            <div class="slide-header">
+                <h2>Prototype: System & UI</h2>
+            </div>
+            <div class="grid-2-col">
+                <div class="architecture-diagram">
+                    <div class="arch-box glass-card">Data Aggregators<br><small>(APIs)</small></div>
+                    <div class="arch-arrow">⬇</div>
+                    <div class="arch-box glass-card highlight">Smart Routing Engine<br><small>(Optimization
+                            Logic)</small></div>
+                    <div class="arch-arrow">⬇</div>
+                    <div class="arch-box glass-card">User Interface<br><small>(Web/Mobile)</small></div>
+                </div>
+                <div class="ui-mockup-container">
+                    <div class="phone-mockup glass-panel">
+                        <div class="app-header">Plan Trip</div>
+                        <div class="app-card active">
+                            <div class="app-card-row">
+                                <span class="mode-badge train">🚆 Train</span>
+                                <span class="arrow">→</span>
+                                <span class="mode-badge bus">🚌 Bus</span>
+                            </div>
+                            <div class="app-card-details">
+                                <h3>₹ 850</h3>
+                                <span>6h 30m</span>
+                            </div>
+                            <div class="app-tag">Best Value</div>
+                        </div>
+                        <div class="app-card">
+                            <div class="app-card-row">
+                                <span class="mode-badge flight">✈️ Flight</span>
+                                <span class="arrow">→</span>
+                                <span class="mode-badge cab">🚕 Cab</span>
+                            </div>
+                            <div class="app-card-details">
+                                <h3>₹ 2500</h3>
+                                <span>2h 10m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Test -->
+        <div class="slide" id="slide-10">
+            <div class="slide-header">
+                <h2>Test & Validation</h2>
+            </div>
+            <div class="grid-2-col">
+                <div class="results-container glass-panel">
+                    <h3>Success Metrics</h3>
+                    <div class="chart-row">
+                        <span>Planning Time Reduced</span>
+                        <div class="bar-container">
+                            <div class="bar new" style="width: 75%">75% Faster</div>
+                        </div>
+                    </div>
+                    <div class="chart-row">
+                        <span>Cost Savings</span>
+                        <div class="bar-container">
+                            <div class="bar new" style="width: 60%">15% Avg</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback-container">
+                    <div class="feedback-card glass-card">
+                        <p>"The 'Student' persona test showed that the bus+train combo was found 3x faster than manual
+                            search."</p>
+                    </div>
+                    <div class="feedback-card glass-card">
+                        <p>"Business travelers valued the 'Reliability Score' feature the most."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Conclusion -->
+        <div class="slide" id="slide-11">
+            <div class="content-center glass-panel">
+                <h2 class="main-title">Thank You</h2>
+                <p class="subtitle">Smart Travel Planner</p>
+                <p>Bridging the gap between <strong>Human Needs</strong> and <strong>Technological
+                        Intervention</strong>.</p>
+            </div>
+        </div>
+
+        <div class="slide-counter">1 / 11</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
