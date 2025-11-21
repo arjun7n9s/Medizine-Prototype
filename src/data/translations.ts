@@ -27,7 +27,9 @@ export const translations = {
             findDoctor: "Find a Doctor",
             symptomAnalysis: "Symptom Analysis",
             bookAppointment: "Book Appointment",
-            emergency: "Emergency"
+            emergency: "Emergency",
+            waitTimes: "Wait Times",
+            firstAid: "First Aid"
         },
         reportAnalysis: {
             newFeature: "New Feature",
@@ -79,7 +81,9 @@ export const translations = {
             findDoctor: "डॉक्टर खोजें",
             symptomAnalysis: "लक्षण विश्लेषण",
             bookAppointment: "अपॉइंटमेंट बुक करें",
-            emergency: "आपातकालीन"
+            emergency: "आपातकालीन",
+            waitTimes: "प्रतीक्षा समय",
+            firstAid: "प्राथमिक चिकित्सा"
         },
         reportAnalysis: {
             newFeature: "नई सुविधा",

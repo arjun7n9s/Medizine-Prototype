@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Search, Menu, X, ShoppingCart, User, Languages } from "lucide-react"
+import { Search, Menu, X, ShoppingCart, User, Languages, Heart } from "lucide-react"
 import { useCart } from "@/context/CartContext"
 import { CartSheet } from "@/components/CartSheet"
 import { UserProfileSheet } from "@/components/UserProfileSheet"
@@ -32,7 +32,7 @@ export function Navbar() {
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2 font-bold text-xl text-primary shrink-0">
                     <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center text-white">
-                        M
+                        <Heart className="h-5 w-5 fill-current" />
                     </div>
                     <span className="hidden sm:inline">Medezine</span>
                 </Link>
@@ -42,6 +42,7 @@ export function Navbar() {
                     <Link to="/" className="hover:text-primary transition-colors">{t('nav.home')}</Link>
                     <Link to="/doctors" className="hover:text-primary transition-colors">{t('nav.findDoctors')}</Link>
                     <Link to="/symptoms" className="hover:text-primary transition-colors">{t('nav.symptomAnalysis')}</Link>
+                    <Link to="/dashboard" className="hover:text-primary transition-colors">{t('nav.waitTimes')}</Link>
                     <Link to="/medicines" className="hover:text-primary transition-colors">{t('nav.medicines')}</Link>
                     <Link to="/report-analysis" className="hover:text-primary transition-colors">{t('nav.reportAnalysis')}</Link>
                 </div>
@@ -113,6 +114,7 @@ export function Navbar() {
                         <Link to="/" onClick={() => setIsMenuOpen(false)}>{t('nav.home')}</Link>
                         <Link to="/doctors" onClick={() => setIsMenuOpen(false)}>{t('nav.findDoctors')}</Link>
                         <Link to="/symptoms" onClick={() => setIsMenuOpen(false)}>{t('nav.symptomAnalysis')}</Link>
+                        <Link to="/dashboard" onClick={() => setIsMenuOpen(false)}>{t('nav.waitTimes')}</Link>
                         <Link to="/medicines" onClick={() => setIsMenuOpen(false)}>{t('nav.medicines')}</Link>
                         <Link to="/report-analysis" onClick={() => setIsMenuOpen(false)}>{t('nav.reportAnalysis')}</Link>
                         <div className="flex items-center justify-between py-2 border-t border-b">

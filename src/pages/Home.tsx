@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Search, Activity, Calendar, Clock, ShieldAlert, Star } from "lucide-react"
+import { Search, Activity, Calendar, Clock, ShieldAlert, Star, Heart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -106,12 +106,14 @@ export default function Home() {
 
             {/* Quick Actions */}
             <section className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {[
                         { title: t('quickActions.findDoctor'), icon: Search, color: "text-blue-600", bg: "bg-blue-50", link: "/doctors" },
                         { title: t('quickActions.symptomAnalysis'), icon: Activity, color: "text-purple-600", bg: "bg-purple-50", link: "/symptoms" },
                         { title: t('quickActions.bookAppointment'), icon: Calendar, color: "text-green-600", bg: "bg-green-50", link: "/doctors" },
                         { title: t('quickActions.emergency'), icon: ShieldAlert, color: "text-red-600", bg: "bg-red-50", link: "/emergency" },
+                        { title: t('quickActions.waitTimes'), icon: Clock, color: "text-orange-600", bg: "bg-orange-50", link: "/dashboard" },
+                        { title: t('quickActions.firstAid'), icon: Heart, color: "text-rose-600", bg: "bg-rose-50", link: "/first-aid" },
                     ].map((item, index) => (
                         <Link key={index} to={item.link}>
                             <Card className="hover:shadow-lg transition-shadow cursor-pointer border-none shadow-sm">
