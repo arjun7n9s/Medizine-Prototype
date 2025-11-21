@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Search, Activity, Calendar, Clock, ShieldAlert } from "lucide-react"
+import { Search, Activity, Calendar, Clock, ShieldAlert, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -152,6 +152,10 @@ export default function Home() {
                                 <li className="flex items-center gap-2">
                                     <div className="bg-white/20 p-1 rounded-full"><ShieldAlert className="h-4 w-4" /></div>
                                     <span>Get Discounts on Medicines & Appointments</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <div className="bg-white/20 p-1 rounded-full"><Star className="h-4 w-4" /></div>
+                                    <span>Review doctors to unlock exclusive rewards & discounts</span>
                                 </li>
                             </ul>
                             <Button size="lg" variant="secondary" className="h-12 px-8 text-indigo-700 font-bold" asChild>

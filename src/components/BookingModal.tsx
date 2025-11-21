@@ -10,7 +10,40 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export function BookingModal({ doctorName }: { doctorName: string }) {
     const [date, setDate] = useState<string>("")
     const [time, setTime] = useState<string>("")
-    console.log(time)
+    const [isSubmitted, setIsSubmitted] = useState(false)
+
+    const handleBooking = () => {
+        if (!date || !time) {
+            alert("Please select both date and time")
+            return
+        }
+        setIsSubmitted(true)
+    }
+
+    if (isSubmitted) {
+        return (
+            <Dialog>
+                <DialogTrigger asChild>
+                    <Button size="lg" className="w-full sm:w-auto">Book Appointment</Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                        <DialogTitle className="text-center text-green-600">Booking Confirmed!</DialogTitle>
+                        <DialogDescription className="text-center pt-4">
+                            Your appointment with {doctorName} has been scheduled.
+                            <br />
+                            <span className="font-semibold block mt-2">
+                                {new Date(date).toLocaleDateString()} at {time}
+                            </span>
+                        </DialogDescription>
+                    </DialogHeader>
+                    <DialogFooter className="sm:justify-center">
+                        <Button onClick={() => setIsSubmitted(false)} className="w-full">Close</Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+        )
+    }
 
     return (
         <Dialog>
@@ -69,7 +102,7 @@ export function BookingModal({ doctorName }: { doctorName: string }) {
                 </Tabs>
 
                 <DialogFooter>
-                    <Button type="submit" className="w-full">Confirm Booking</Button>
+                    <Button onClick={handleBooking} className="w-full">Confirm Booking</Button>
                 </DialogFooter>
             </DialogContent>
         </Dialog>
