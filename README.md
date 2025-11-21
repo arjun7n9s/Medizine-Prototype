@@ -52,4 +52,4 @@ Follow these steps to run the prototype locally:
 
 ## ⚠️ Note
 
-This application is for **demonstration purposes only**. It does not provide real medical advice. In case of a medical emergency, please contact your local emergency services immediately.
+This website was for just for **demonstration purposes only**, I made this for our Design Thinking course assignment which actually just needed to show our research and ideation. It does not provide real medical advice.
