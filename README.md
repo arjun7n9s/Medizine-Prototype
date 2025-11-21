@@ -1,73 +1,55 @@
-# React + TypeScript + Vite
+# Medezine - Healthcare Platform Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Medezine is a modern, user-centric healthcare platform designed to bridge the gap between patients and medical services. This prototype demonstrates a seamless digital health experience, featuring AI-powered symptom analysis, doctor discovery, medicine delivery, and emergency services.
 
-Currently, two official plugins are available:
+> [!IMPORTANT]
+> **PROTOTYPE DISCLAIMER**: This project is a **frontend-only prototype** developed for Design Thinking demonstration purposes. It **does not have a connected backend database**. All data (doctors, medicines, hospitals) is mocked, and actions such as booking appointments or purchasing medicines are **simulated** and do not process real transactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## React Compiler
+*   **🤖 AI Symptom Analysis**: Powered by Google Gemini, this feature analyzes user symptoms to suggest potential conditions and recommend appropriate specialists.
+*   **👨‍⚕️ Doctor Search & Booking**: Browse verified doctors by specialty, experience, and consultation fees. Includes a simulated booking flow.
+*   **💊 Medicine Delivery**: A complete e-pharmacy interface allowing users to browse medicines, view details, and add items to a cart.
+*   **🏥 Live Wait Times**: specific dashboard to view estimated wait times and crowd levels at nearby hospitals (using mock data).
+*   **🚑 Emergency & First Aid**: Quick access to emergency contacts (Ambulance, Police) and essential first aid guides.
+*   **📄 Report Analysis**: A feature to upload medical reports for AI-driven summaries and insights (simulated).
+*   **🌐 Multilingual Support**: Full support for **English** and **Hindi** languages.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **Framework**: React + TypeScript + Vite
+*   **Styling**: Tailwind CSS
+*   **UI Components**: Shadcn UI (Radix Primitives)
+*   **Icons**: Lucide React
+*   **Animations**: Framer Motion
+*   **AI Integration**: Google Gemini API
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Follow these steps to run the prototype locally:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/arjun7n9s/Medizine-Prototype.git
+    cd Medizine-Prototype
+    ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3.  **Environment Setup**
+    Create a `.env` file in the root directory and add your Gemini API key for the Symptom Checker to work:
+    ```env
+    VITE_GEMINI_API_KEY=your_api_key_here
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚠️ Note
+
+This application is for **demonstration purposes only**. It does not provide real medical advice. In case of a medical emergency, please contact your local emergency services immediately.
